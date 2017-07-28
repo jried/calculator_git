@@ -3,4 +3,3 @@ language: java
 notifications:
   email:
     - j.riedel@dotsource.de
-    - s.petzold@dotsource.de
