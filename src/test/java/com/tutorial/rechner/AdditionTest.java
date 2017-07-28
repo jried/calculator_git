@@ -12,7 +12,7 @@ public class AdditionTest {
 	@Test
 	public void addPositiv() {
 		Addition additionUnderTest = new Addition(2, 3);
-		assertEquals(6, additionUnderTest.add(),0);
+		assertEquals(5, additionUnderTest.add(),0);
 	}
 
 	
