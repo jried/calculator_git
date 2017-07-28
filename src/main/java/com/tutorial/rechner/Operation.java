@@ -52,9 +52,7 @@ public class Operation {
 			double rightOperand = Double.parseDouble(rightOperandString);
 
 			switch (operand) {
-			case MUL:
-				calculateResult = new Multiplikation(leftOperand, rightOperand).mul();
-				break;
+
 			case DIV:
 				calculateResult = new Division(leftOperand, rightOperand).divide();
 				break;
