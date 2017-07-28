@@ -24,7 +24,7 @@ public class AdditionTest {
 
 	@Test
 	public void addNegative() {
-		Addition additionUnderTest = new Addition(-2, 3);
+		Addition additionUnderTest = new Addition(-2, -1);
 		assertEquals(1, additionUnderTest.add(),0);
 	}
 }
