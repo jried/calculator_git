@@ -68,7 +68,7 @@ public class Operation {
 				calculateResult = new Subtraktion(leftOperand, rightOperand).sub();
 				break;
 			default:
-				throw new IllegalArgumentException("Division durch 0 nicht möglich.");
+				throw new IllegalArgumentException("Division durch 0 nicht moeglich.");
 			}
 			String substring = leftOperandString + operand + rightOperandString;
 

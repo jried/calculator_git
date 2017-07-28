@@ -25,7 +25,7 @@ public class Division {
 		{
 			double c;
 			if(b == 0) {
-				throw new IllegalArgumentException("Division durch 0 nicht möglich.");
+				throw new IllegalArgumentException("Division durch 0 nicht moeglich.");
 			}
 			
 			else {			
