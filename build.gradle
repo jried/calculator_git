@@ -1,0 +1,19 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+mainClassName = "com.dotsource.rechner.Rechner"
+
+run{
+
+ 		standardInput = System.in
+ 
+	}
+
+repositories {
+    mavenCentral()	
+	}
+	
+dependencies {
+  	testCompile 'junit:junit:4.12'
+	}
+
