@@ -4,6 +4,5 @@ notifications:
 	slack:
 		on_success: always
 		on_failure: always
-
   email:
     - j.riedel@dotsource.de
