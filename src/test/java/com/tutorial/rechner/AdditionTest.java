@@ -17,7 +17,7 @@ public class AdditionTest {
 
 	@Test
 	public void addPositiv2() {
-		Addition additionUnderTest = new Addition(4, 3);
+		Addition additionUnderTest = new Addition(5, 3);
 		assertEquals(7, additionUnderTest.add(),0);
 	}
 	
