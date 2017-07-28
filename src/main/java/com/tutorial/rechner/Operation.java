@@ -31,7 +31,7 @@ public class Operation {
 		operation = executeOperations(operation, MUL);
 		operation = executeOperations(operation, DIV);
 		operation = executeOperations(operation, MINUS);
-		operation = executeOperations(operation, PLUS);
+
 
 		return Double.parseDouble(operation);
 	}

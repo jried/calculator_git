@@ -15,6 +15,11 @@ public class AdditionTest {
 		assertEquals(5, additionUnderTest.add(),0);
 	}
 
+	@Test
+	public void addPositiv2() {
+		Addition additionUnderTest = new Addition(4, 3);
+		assertEquals(7, additionUnderTest.add(),0);
+	}
 	
 
 	@Test
