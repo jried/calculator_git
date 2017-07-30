@@ -1,5 +1,5 @@
 language: java
 
 notifications:
-	email:
-		- j.riedel@dotsource.de
+  email:
+    - j.riedel@dotsource.de
