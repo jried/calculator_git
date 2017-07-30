@@ -13,7 +13,7 @@ public class Multiplikation {
 		}
 		
 		protected double mul() {
-			return a * b;
+			return a + b;
 		}
 
 }
