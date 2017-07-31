@@ -3,7 +3,3 @@ language: java
 notifications:
   email:
     - j.riedel@dotsource.de
-
-  install:
-  - bundle install --path vendor/bundle
-  - npm install
